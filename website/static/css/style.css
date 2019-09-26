@@ -1,0 +1,32 @@
+body{
+    font-family: 'Mansalva', cursive;
+}
+
+.inspiração{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+input{
+    height: 50px;
+}
+
+label{
+    height: 14pt;
+}
+
+.titulo-index{
+    color: blue;
+    font-size: 40px;
+}
+
+.frases{
+    height: 300px;
+    margin-top: 10px;
+}
+
+.deletar{
+    text-decoration: none;
+    color: black;
+}
