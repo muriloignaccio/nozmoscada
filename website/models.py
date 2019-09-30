@@ -13,6 +13,6 @@ class Coach(models.Model):
         return self.nome
 
 class User(models.Model):
-    nome = models.models.ForeignKey(Coach, on_delete-None)
-    email = models.models.EmailField(max_length=254, verbose_name='Email')
+    nome = models.ForeignKey(Coach, on_delete=None)
+    email = models.EmailField(max_length=254, verbose_name='Email')
     senha = models.CharField(max_length=16, verbose_name='Senha')
